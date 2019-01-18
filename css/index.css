@@ -321,6 +321,16 @@ html {
   padding-top: 5px;
   padding-left: 8px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    font-size: 2.4rem;
+    padding-top: 4%;
+    padding-left: 0%;
+  }
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
