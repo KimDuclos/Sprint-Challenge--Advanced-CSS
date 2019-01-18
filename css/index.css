@@ -186,11 +186,12 @@ nav {
   background-color: #f5f3f3;
   padding-bottom: 2%;
   padding-left: 4%;
-  height: 30px;
+  height: 40px;
 }
 @media (max-width: 500px) {
   nav {
     padding-left: 7%;
+    height: 40px;
   }
 }
 nav a:link {
@@ -239,7 +240,7 @@ html {
 }
 @media (max-width: 500px) {
   .home .main-header {
-    width: 98%;
+    width: 100%;
     margin-left: 0px;
   }
 }
@@ -355,7 +356,7 @@ html {
   color: black;
 }
 .home .walk .walk-img {
-  width: 46%;
+  width: 100%;
   margin-left: 4%;
 }
 @media (max-width: 500px) {
@@ -378,7 +379,7 @@ html {
 }
 @media (max-width: 500px) {
   .home footer {
-    width: 98%;
+    width: 100%;
     margin-left: 0%;
   }
 }
