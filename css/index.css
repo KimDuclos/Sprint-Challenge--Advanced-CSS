@@ -1,8 +1,8 @@
 .bg-color-mixin {
-  background-color: #dad6d6;
+  background-color: #f5f3f3;
 }
 .img-rounded-corners {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 /*****parametric mixin for button********/
 .btn {
@@ -182,13 +182,12 @@ nav {
   display: flex;
   justify-content: center;
   padding-top: 2%;
-  background-color: #dad6d6;
+  background-color: #f5f3f3;
   padding-bottom: 2%;
   padding-left: 10%;
 }
 @media (max-width: 500px) {
   nav {
-    background-color: white;
     padding-left: 12%;
   }
 }
@@ -226,7 +225,7 @@ html {
   padding: 0 15px;
 }
 .home .main-header {
-  border-radius: 4px;
+  border-radius: 8px;
   width: 90%;
   margin-top: 0.25%;
   margin-left: 4%;
@@ -241,13 +240,13 @@ html {
 }
 .home .page-title {
   font-size: 3.4rem;
-  background-color: #dad6d6;
+  background-color: #f5f3f3;
   width: 100%;
   padding-left: 33%;
 }
 @media (max-width: 500px) {
   .home .page-title {
-    background-color: #dad6d6;
+    background-color: #f5f3f3;
     padding-left: 0%;
     text-align: center;
   }
@@ -347,5 +346,5 @@ html {
 .home .walk .walk-img img {
   width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 8px;
 }
