@@ -186,10 +186,11 @@ nav {
   background-color: #f5f3f3;
   padding-bottom: 2%;
   padding-left: 4%;
+  height: 30px;
 }
 @media (max-width: 500px) {
   nav {
-    padding-left: 12%;
+    padding-left: 7%;
   }
 }
 nav a:link {
@@ -197,6 +198,10 @@ nav a:link {
   color: black;
   font-size: 1.5rem;
   padding-right: 4%;
+  width: auto;
+}
+nav a:link a:visited {
+  color: black;
 }
 footer {
   color: #22283B;
