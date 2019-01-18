@@ -9,7 +9,8 @@
   background-color: black;
   border-radius: 4px;
   color: white;
-  padding: 5px;
+  width: 80px;
+  height: 30px;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -207,6 +208,11 @@ html {
 .home {
   width: 1000px;
 }
+@media (max-width: 500px) {
+  .home {
+    width: 500px;
+  }
+}
 .home .intro h2 {
   padding: 15px;
 }
@@ -275,9 +281,9 @@ html {
   margin-bottom: 26px;
 }
 .home .walk .walk-text .btn {
-  width: 20px;
-  height: 20px;
-  background-color: black;
+  font-size: 1.5rem;
+  padding-top: 5px;
+  padding-left: 8px;
 }
 .home .walk .walk-img {
   width: 46%;

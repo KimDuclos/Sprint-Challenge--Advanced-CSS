@@ -11,13 +11,14 @@
 
 /*****parametric mixin for button********/
 
-.btn-para-mixin(@bg-color; @radius; @text-color; @padding) {
+.btn-para-mixin(@bg-color; @radius; @text-color; @width; @height) {
     background-color: @bg-color;
     border-radius: @radius;
     color: @text-color;
-    padding: @padding;
+    width: @width;
+    height: @height;
 }
 
 .btn {
-    .btn-para-mixin(black, 4px, white, 5px);
+    .btn-para-mixin(black, 4px, white, 80px, 30px);
 }    

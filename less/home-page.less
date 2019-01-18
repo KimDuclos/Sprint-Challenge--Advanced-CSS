@@ -5,6 +5,9 @@ html {
 
 .home {
   width: 1000px;
+  @media @phone {
+    width: 500px;
+  }
 
   .intro {
 
@@ -96,12 +99,13 @@ html {
         margin-bottom: 26px;
       }
 
-      .btn {
-        width: 20px;
-        height: 20px;
-        background-color: black;
+      .btn {  //*****other styling in parametric mixin in mixins.les*****//
+        font-size: 1.5rem;
+        padding-top: 5px;
+        padding-left: 8px;
+      }
+
     }  
-    }
 
     .walk-img {
       width: 46%;
