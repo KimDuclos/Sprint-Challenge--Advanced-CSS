@@ -356,7 +356,7 @@ html {
   color: black;
 }
 .home .walk .walk-img {
-  width: 100%;
+  width: 96%;
   margin-left: 4%;
 }
 @media (max-width: 500px) {
@@ -374,7 +374,7 @@ html {
 }
 .home footer {
   width: 80%;
-  margin-left: 8%;
+  margin-left: 9%;
   background-color: #f5f3f3;
 }
 @media (max-width: 500px) {
