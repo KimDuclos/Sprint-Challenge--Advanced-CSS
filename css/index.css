@@ -3,8 +3,9 @@
 }
 .img-rounded-corners {
   border-radius: 8px;
+  border: none;
 }
-/*****parametric mixin for button********/
+/*****parametric mixin for sign up button********/
 .btn {
   background-color: black;
   border-radius: 4px;
@@ -226,6 +227,7 @@ html {
 }
 .home .main-header {
   border-radius: 8px;
+  border: none;
   width: 90%;
   margin-top: 0.25%;
   margin-left: 4%;
@@ -264,6 +266,7 @@ html {
   margin: 20px 2.5%;
   height: 100%;
   border-radius: 8px;
+  border: none;
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
@@ -325,6 +328,10 @@ html {
   padding-top: 7px;
   padding-left: 14px;
 }
+.home .walk .walk-text .btn btn:hover {
+  background-color: white;
+  color: black;
+}
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
     width: 100%;
@@ -350,6 +357,7 @@ html {
   width: 100%;
   height: auto;
   border-radius: 8px;
+  border: none;
 }
 .home footer {
   width: 80%;
