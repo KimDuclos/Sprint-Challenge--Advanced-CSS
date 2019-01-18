@@ -24,7 +24,7 @@ html {
   //----------MAIN HEADER-----------------//
 
         .main-header {
-          .img-rounded-corners();  //***second mixin used***//
+          .img-rounded-corners();   //*** mixin used for rounded corners
           width: 90%;
           margin-top: .25%;
           margin-left: 4%;
@@ -67,7 +67,8 @@ html {
       width: 28%;
       margin: 20px 2.5%;
       height: 100%;
-    }
+      .img-rounded-corners();   //*** mixin used for rounded corners
+    } 
 
     .blast {  
       @media @phone {  //*** set blast image to 100% on mobile
@@ -162,7 +163,7 @@ html {
       img {
         width: 100%;
         height: auto;
-        .img-rounded-corners();
+        .img-rounded-corners();  //*** mixin used for rounded corners
       }
     }
   }

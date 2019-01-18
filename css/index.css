@@ -261,6 +261,7 @@ html {
   width: 28%;
   margin: 20px 2.5%;
   height: 100%;
+  border-radius: 8px;
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
