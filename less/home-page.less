@@ -1,6 +1,10 @@
 // Home Content
+html {
+  font-size: 62.5%;
+}
 
 .home {
+  width: 1000px;
 
   .intro {
 
@@ -14,15 +18,44 @@
   
   }
 
+  //----------MAIN HEADER-----------------//
+
+        .main-header {
+          .img-rounded-corners();  //***second mixin used***//
+          width: 90%;
+          margin-top: .25%;
+          margin-left: 4%;
+        }
+
+  //----------END MAIN HEADER------------//
+
+  .lift-off {
+    width: 90%;
+    margin-left: 4%;
+    font-size: 3.4rem;
+  }
+
+.intro {
+  width: 100%;
+}
+
+.page-title {
+  font-size: 3.4rem;
+  .bg-color-mixin();  //*****mixin used////
+  width: 100%;
+  padding-left: 33%;
+}
+
+
   .space-images {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin-left: 4%;
 
     img {
       width: 28%;
       margin: 20px 2.5%;
-      border-radius: 20px;
       height: 100%;
     }
   }
@@ -37,6 +70,12 @@
     p {
       margin-top: 13px;
     }
+  }
+
+  .visit {
+    width: 90%;
+    margin-left: 4%;
+    font-size: 3.4rem;
   }
 
   .walk {
@@ -58,7 +97,10 @@
       }
 
       .btn {
-      }
+        width: 20px;
+        height: 20px;
+        background-color: black;
+    }  
     }
 
     .walk-img {
@@ -68,8 +110,9 @@
       img {
         width: 100%;
         height: auto;
-        border-radius: 10px;
+        .img-rounded-corners();
       }
     }
   }
+
 }// home

@@ -1,1 +1,23 @@
 // Mixins Here
+
+//****mixin for the background colors of page title and navbar*****//
+.bg-color-mixin {
+    background-color: rgb(218, 214, 214);
+}
+
+.img-rounded-corners {
+    border-radius: 4px;  // check on this later *******
+}
+
+/*****parametric mixin for button********/
+
+.btn-para-mixin(@bg-color; @radius; @text-color; @padding) {
+    background-color: @bg-color;
+    border-radius: @radius;
+    color: @text-color;
+    padding: @padding;
+}
+
+.btn {
+    .btn-para-mixin(black, 4px, white, 5px);
+}    
