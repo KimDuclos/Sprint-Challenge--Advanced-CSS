@@ -237,6 +237,12 @@ html {
   margin-top: 0.25%;
   margin-left: 4%;
 }
+@media (max-width: 500px) {
+  .home .main-header {
+    width: 98%;
+    margin-left: 0px;
+  }
+}
 .home .lift-off {
   width: 90%;
   margin-left: 4%;
