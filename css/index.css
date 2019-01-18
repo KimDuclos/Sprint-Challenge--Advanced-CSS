@@ -298,6 +298,7 @@ html {
   .home .walk {
     flex-direction: column-reverse;
     padding: 3% 3%;
+    margin-top: 3%;
   }
 }
 .home .walk .walk-text {
