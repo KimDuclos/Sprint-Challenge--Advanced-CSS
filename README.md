@@ -32,15 +32,60 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
+
+# QUESTIONS ANSWERED HERE ##
+
 1. What is the difference between an adaptive website and a fully responsive website?
+
+        Adaptive - has aspects of fixed website (for speed) and uses a combination of hard coded pixes and breakpoints for different devices, but not all devices. It usuall only has breakpoints for desktop, tablet and phone.
+                - Uses media queries that are hard coded at each breakpoint
+
+        Fully Responsive -  A combination of fixed, adaptive and fluid. Media queries are used grow and shrink the viewport by contraining responsive units rather than hard coding breakpoints.
+                        - sizes usually divided between desktop, tablet and phone but are fluid between breakpoints using responsive media queries.
+
 
 2. Describe what it means to be mobile first vs desktop first.
 
+        -  Mobile to desktop means that the initial design of the website is for the viewport of a phone. It then uses breakpoints to expand the screen for tablet and then desktop.
+        - min-width is used instead of max-width (from desktop to mobile). Breakpoints use media queries to grow the size to tablet and then desktop.
+
+
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+             It allows for an easy calculation when choosing rem sizes for fonts. For example: 2.4 rem = 24px, 1.4rem = 14px using a base 10 model.
+
+
 
 4. How would you describe preprocessing to someone new to CSS?
 
+        A preprocessor converts an often easier to read syntax into proper CSS. For example, Less syntax allow for nesting elements such as they are in HTML. The preprocessor then converts
+        that syntax into usable CSS in the original format. 
+
+        nav {
+            font-size: 18px;
+            h1 {
+                font-size: 16px
+            }
+        }
+
+        Would convert to: 
+
+        nav {
+            font-size: 18px;
+        }
+        nav h1 {
+            font-size: 16;
+        }
+
+
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+        The nesting layout makes things amazing to read. I'm able to see it just as the HTML laid it out, rather than making lengthy lines to reach nested elements.
+        The parametric mixin confused me at first since we were just using it on one thing with one style. I can see how it would be useful very organized on multiple
+        elements that have some same styles and some different. I could just reuse the mixin to repeat the same styles and then hard code the different styles.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
