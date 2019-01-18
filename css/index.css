@@ -376,3 +376,9 @@ html {
   margin-left: 8%;
   background-color: #f5f3f3;
 }
+@media (max-width: 500px) {
+  .home footer {
+    width: 98%;
+    margin-left: 0%;
+  }
+}
