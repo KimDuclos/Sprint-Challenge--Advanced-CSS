@@ -189,6 +189,7 @@ nav {
 @media (max-width: 500px) {
   nav {
     background-color: white;
+    padding-left: 12%;
   }
 }
 nav a:link {
