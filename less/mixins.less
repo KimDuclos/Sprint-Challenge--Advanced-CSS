@@ -1,1 +1,26 @@
 // Mixins Here
+
+//****mixin for the background colors of page title and navbar*****//
+.bg-color-mixin {
+    background-color: rgb(245, 243, 243);
+}
+
+//***second mixin for img border radius
+.img-rounded-corners {
+    border-radius: 8px;
+    border: none;  
+}
+
+/*****parametric mixin for sign up button********/
+
+.btn-para-mixin(@bg-color; @radius; @text-color; @width; @height) {
+    background-color: @bg-color;
+    border-radius: @radius;
+    color: @text-color;
+    width: @width;
+    height: @height;
+}
+
+.btn {
+    .btn-para-mixin(black, 4px, white, 80px, 30px);
+}    
